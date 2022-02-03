@@ -6,17 +6,13 @@ Written as a first pygame experiment.
 A simple simulation of Conway's Game of Life
 (for an explanation see https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
-Menu options:
+## Menu options:
 
-F1 - Start or Stop the simulation
-
-F2 - Clear all cells from the screen
-
-F3 - Edit. Add a pixel with left mouse click, remove with right mouse click
-
-F4 - Save the current pattern
-
-F5 - Quit
+- F1 - Start or Stop the simulation
+- F2 - Clear all cells from the screen
+- F3 - Edit. Add a pixel with left mouse click, remove with right mouse click
+- F4 - Save the current pattern
+- F5 - Quit
 
 The accompanying .ini file contains some configuration settings, and can be edited
 using a text editor.
