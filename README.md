@@ -7,10 +7,15 @@ A simple simulation of Conway's Game of Life
 (for an explanation see https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
 Menu options:
+
 F1 - Start or Stop the simulation
+
 F2 - Clear all cells from the screen
+
 F3 - Edit. Add a pixel with left mouse click, remove with right mouse click
+
 F4 - Save the current pattern
+
 F5 - Quit
 
 The accompanying .ini file contains some configuration settings, and can be edited
@@ -19,19 +24,23 @@ using a text editor.
 The [display] group specifies foreground and background colours as R,G,B groups, e.g.:
 
 [display]
+
 fgcolour = 255, 127, 0
+
 bgcolour = 0, 0, 80
 
 The [timer] group specifies the interval between simulation iterations in milliseconds
 (adjust for your local processor speed):
 
 [timer]
+
 interval = 200
 
 The [pattern] group contains the last saved pattern. Pixels are specified using x,y pairs
 and separated by a '|' character, e.g.:
 
 [pattern]
+
 cells = 16,1|22,1|16,2|22,2|16,3|22,3|18,5|19,5|20,5|7,31|8,31|6,32|8,32|7,33|0,34|62,34|
 0,35|61,35|61,36|0,37|3,37|61,37|62,37|1,38|2,38|4,38|1,39|2,39|4,39|15,39|16,39|17,39|
 48,39|49,39|50,39|3,40|15,40|16,40|18,40|19,40|49,40|52,40|15,41|16,41|50,41|51,41|52,41|
