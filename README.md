@@ -14,6 +14,8 @@ A simple simulation of Conway's Game of Life
 - F4 - Save the current pattern
 - F5 - Quit
 
+## .ini file
+
 The accompanying .ini file contains some configuration settings, and can be edited
 using a text editor.
 
