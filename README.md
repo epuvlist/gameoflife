@@ -17,7 +17,7 @@ A simple simulation of Conway's Game of Life
 ## .ini file
 
 The accompanying .ini file contains some configuration settings, and can be edited
-using a text editor.
+using a text editor. It must be in the same directory as the program file when run.
 
 The [display] group specifies foreground and background colours as R,G,B groups, e.g.:
 
