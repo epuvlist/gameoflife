@@ -1,7 +1,7 @@
 # gameoflife
-Conway's Game of Life, written in Python 3 using the pygame module.
+Conway's Game of Life, written in Python 3 using the Pygame module.
 
-Written as a first pygame experiment.
+Written as an exercise to learn Pygame.
 
 A simple simulation of Conway's Game of Life
 (for an explanation see https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
